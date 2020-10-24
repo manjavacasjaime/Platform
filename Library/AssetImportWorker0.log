@@ -1,0 +1,503 @@
+[LicensingClient] ERROR Failed to connect to local IPC
+[Licensing::Module] Failed to connect to channel: LicenseClient-Media
+[Licensing::Module] Successfully launched the LicensingClient
+[LicensingClient] Timed-out attempting to connect to the Licensing Client on pipe: LicenseClient-Media.
+[LicensingClient] ERROR Failed to connect to local IPC
+[Licensing::Module] Failed to connect to channel: LicenseClient-Media
+IPC channel to LicensingClient doesn't exist; falling back to Legacy licensing
+[LicensingClient] ERROR Failed to disconnect local IPC connection
+
+LICENSE SYSTEM [2020819 13:24:24] Next license update check is after 2020-08-20T10:28:43
+
+LookupAccountName() failed. Error 1332
+
+LICENSE SYSTEM [2020819 13:24:24] Couldn't set permissions of the license file (Win32_AddFileAccessRights).
+
+Built from '2019.3/staging' branch; Version is '2019.3.2f1 (c46a3a38511e) revision 12872250'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 11733 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Media/UnityProjects/Platform
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+10318
+Successfully changed project path to: C:/Users/Media/UnityProjects/Platform
+C:/Users/Media/UnityProjects/Platform
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 41.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.3.2f1 (c46a3a38511e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Media/UnityProjects/Platform/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) R5 Graphics (ID=0x98e4)
+    Vendor:   
+    VRAM:     505 MB
+    Driver:   22.19.163.1024
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010988 seconds.
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 37.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.720 seconds
+Registering precompiled user dll's ...
+Registered in 0.138761 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.991 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.0 MB.
+System memory in use after: 56.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1549.
+Total: 3.868300 ms (FindLiveObjects: 1.124800 ms CreateObjectMapping: 0.082700 ms MarkObjects: 2.546300 ms  DeleteObjects: 0.112100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/player.png
+  artifactKey: Guid(17e6b12df4871ac41918362f46424f4a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Sprites/player.png using Guid(17e6b12df4871ac41918362f46424f4a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ed60d97898638ef4abdd4711ff26058d.asset.1.index for Assets/Sprites/player.png with Types
+Done importing asset: 'Assets/Sprites/player.png' (target hash: '1965ee7fd0d2bc2116e09767358b5ba9') in 0.578363 seconds
+  Import took 0.580728 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Prefabs/staticObject.prefab
+  artifactKey: Guid(8f0a537e3d777244796df7e065d39edf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/staticObject.prefab using Guid(8f0a537e3d777244796df7e065d39edf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/15824fb83055d904bbb088419cbf4950.asset.1.index for Assets/Prefabs/staticObject.prefab with Types
+Done importing asset: 'Assets/Prefabs/staticObject.prefab' (target hash: '797837355aa7e6a8acbcd34368fd3433') in 0.090605 seconds
+  Import took 0.128333 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000557 seconds.
+  path: Assets/Animations/playerIdleAnimation.anim
+  artifactKey: Guid(2a5061096d6b8824ab01bfa59f65a1f1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerIdleAnimation.anim using Guid(2a5061096d6b8824ab01bfa59f65a1f1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/8de374933c4de894e9673cd58428f0f8.asset.1.index for Assets/Animations/playerIdleAnimation.anim with Types
+Done importing asset: 'Assets/Animations/playerIdleAnimation.anim' (target hash: 'b3e3598e4a7d119d01ba9090e1a6aa43') in 0.141311 seconds
+  Import took 0.143337 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000462 seconds.
+  path: Assets/Animations/playerAnimationAttack5.anim
+  artifactKey: Guid(26505d19e53e4d5408bc80fd631786a9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerAnimationAttack5.anim using Guid(26505d19e53e4d5408bc80fd631786a9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a1d644624aca02945a16627cc7deaed2.asset.1.index for Assets/Animations/playerAnimationAttack5.anim with Types
+Done importing asset: 'Assets/Animations/playerAnimationAttack5.anim' (target hash: 'f226dae96c45f827ceab76ab92a39047') in 0.109663 seconds
+  Import took 0.112736 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Sprites/barrel.png
+  artifactKey: Guid(120bdda19ce405149b75452184eb6262) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Sprites/barrel.png using Guid(120bdda19ce405149b75452184eb6262) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fd836a9ee9e34aa46a61187e68dfeb62.asset.1.index for Assets/Sprites/barrel.png with Types
+Done importing asset: 'Assets/Sprites/barrel.png' (target hash: 'd1662a2a7d90f1945b5f54e559b13d9f') in 0.105664 seconds
+  Import took 0.108679 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Materials/playerMaterial.physicsMaterial2D
+  artifactKey: Guid(6162c5cda82597e49bfe0b98e804212b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Materials/playerMaterial.physicsMaterial2D using Guid(6162c5cda82597e49bfe0b98e804212b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6e4e64fa38437e2438129a23e4eee405.asset.1.index for Assets/Materials/playerMaterial.physicsMaterial2D with Types
+Done importing asset: 'Assets/Materials/playerMaterial.physicsMaterial2D' (target hash: 'fc161b9e2ff52e153f64b21a32868347') in 0.082387 seconds
+  Import took 0.083776 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Animations/player_idle1.controller
+  artifactKey: Guid(3fcd38f42d518154abb6faf515dd2e74) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/player_idle1.controller using Guid(3fcd38f42d518154abb6faf515dd2e74) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/414bcf574862c784ab9bf2558fac15e3.asset.1.index for Assets/Animations/player_idle1.controller with Types
+Done importing asset: 'Assets/Animations/player_idle1.controller' (target hash: '100666a92e76c487f80aa9587ed4421c') in 0.115129 seconds
+  Import took 0.116453 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001172 seconds.
+  path: Assets/Sprites/Background.png
+  artifactKey: Guid(464ebf64144fae248952f68ecc0f855d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Sprites/Background.png using Guid(464ebf64144fae248952f68ecc0f855d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/76a1f657ce1978249b5880e69095a25a.asset.1.index for Assets/Sprites/Background.png with Types
+Done importing asset: 'Assets/Sprites/Background.png' (target hash: '6c40e1aafa6754931c0eb456ab8e1a06') in 0.105140 seconds
+  Import took 0.106456 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000565 seconds.
+  path: Assets/Animations/player_run1.controller
+  artifactKey: Guid(607c92a4269a0f44a8fa5657a2a8ceb9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/player_run1.controller using Guid(607c92a4269a0f44a8fa5657a2a8ceb9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9bd72b971c92dde48ab2688fbee3c7aa.asset.1.index for Assets/Animations/player_run1.controller with Types
+Done importing asset: 'Assets/Animations/player_run1.controller' (target hash: '18f484b7e56e2b3b291a56fb88adf021') in 0.078759 seconds
+  Import took 0.080241 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000562 seconds.
+  path: Assets/Animations/player_punch2.controller
+  artifactKey: Guid(b4b45393d3d9ab240a49ebace9587fff) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/player_punch2.controller using Guid(b4b45393d3d9ab240a49ebace9587fff) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/250288debdce8c04cbdbf6b78a175bbe.asset.1.index for Assets/Animations/player_punch2.controller with Types
+Done importing asset: 'Assets/Animations/player_punch2.controller' (target hash: '8b672c1d820753162c92fc6ae6c986d7') in 0.085695 seconds
+  Import took 0.088308 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000774 seconds.
+  path: Assets/Animations/playerAnimationAttack2.anim
+  artifactKey: Guid(350d84b96a678cb458c29cce732ab4ea) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerAnimationAttack2.anim using Guid(350d84b96a678cb458c29cce732ab4ea) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b91d5667f5edd2148a6fee075eadf2e8.asset.1.index for Assets/Animations/playerAnimationAttack2.anim with Types
+Done importing asset: 'Assets/Animations/playerAnimationAttack2.anim' (target hash: '3097fc18aa9e91167693a2716ab30fa4') in 0.096351 seconds
+  Import took 0.098045 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000739 seconds.
+  path: Assets/Animations/player_punch1.controller
+  artifactKey: Guid(20c4ea3fc86feea4099d8b90017fbe43) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/player_punch1.controller using Guid(20c4ea3fc86feea4099d8b90017fbe43) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7596d3a7c1540094084a2f8c2790dce7.asset.1.index for Assets/Animations/player_punch1.controller with Types
+Done importing asset: 'Assets/Animations/player_punch1.controller' (target hash: '188e003c17fb73137396a47ba67b99cf') in 0.084434 seconds
+  Import took 0.086152 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Animations/playerRunAnimation.anim
+  artifactKey: Guid(5bcbf4ab2144a974a9a4e83408332daf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerRunAnimation.anim using Guid(5bcbf4ab2144a974a9a4e83408332daf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/366b7582c95b81747b4549877071158c.asset.1.index for Assets/Animations/playerRunAnimation.anim with Types
+Done importing asset: 'Assets/Animations/playerRunAnimation.anim' (target hash: 'aee3bbd926f14f9abb5ff851efc33657') in 0.088654 seconds
+  Import took 0.090020 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000487 seconds.
+  path: Assets/Animations/player_jump.controller
+  artifactKey: Guid(84f9565306acf264c9d35866895459c5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/player_jump.controller using Guid(84f9565306acf264c9d35866895459c5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a504aa2bf0c097342b06d6e6b3dd9824.asset.1.index for Assets/Animations/player_jump.controller with Types
+Done importing asset: 'Assets/Animations/player_jump.controller' (target hash: 'ef5e6631ff8007241b6092524bb2b960') in 0.042649 seconds
+  Import took 0.044701 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animations/playerAnimationAttack1.anim
+  artifactKey: Guid(0f8c69f6b8c78124ba6e359199780848) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerAnimationAttack1.anim using Guid(0f8c69f6b8c78124ba6e359199780848) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2f6cd67113c63be4db09e273337031e6.asset.1.index for Assets/Animations/playerAnimationAttack1.anim with Types
+Done importing asset: 'Assets/Animations/playerAnimationAttack1.anim' (target hash: '3ab2b20fd0b7661a2b84d077c17775d1') in 0.112956 seconds
+  Import took 0.114524 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000806 seconds.
+  path: Assets/Animations/playerJumpAnimation.anim
+  artifactKey: Guid(5b333fbdd0b8fe64badbce4b168ec9b9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerJumpAnimation.anim using Guid(5b333fbdd0b8fe64badbce4b168ec9b9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/52e83afec4157aa4fabae29b46d3a357.asset.1.index for Assets/Animations/playerJumpAnimation.anim with Types
+Done importing asset: 'Assets/Animations/playerJumpAnimation.anim' (target hash: 'd14219438d51b19c1494b47b8d1e26ab') in 0.086934 seconds
+  Import took 0.088551 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Prefabs/seAtraviesaPorAbajo.prefab
+  artifactKey: Guid(e1d42b55f1059664fbcfa84e10ee982c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/seAtraviesaPorAbajo.prefab using Guid(e1d42b55f1059664fbcfa84e10ee982c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e39c109974ec8224180bec4ff9f6c196.asset.1.index for Assets/Prefabs/seAtraviesaPorAbajo.prefab with Types
+Done importing asset: 'Assets/Prefabs/seAtraviesaPorAbajo.prefab' (target hash: 'bef3df025a81ffd8da3ee4652e424f0b') in 0.074826 seconds
+  Import took 0.076248 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Animations/playerAnimationAttack3.anim
+  artifactKey: Guid(8a829d8271dbd234280f3a1aad383b46) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerAnimationAttack3.anim using Guid(8a829d8271dbd234280f3a1aad383b46) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bce3ce3d506e32949a285b4428dc3670.asset.1.index for Assets/Animations/playerAnimationAttack3.anim with Types
+Done importing asset: 'Assets/Animations/playerAnimationAttack3.anim' (target hash: '67a78ea08e116916262340d750715cb9') in 0.111689 seconds
+  Import took 0.113350 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c1eb36f2fd5026a46b743110bbd27560.asset.1.index for Assets/Scenes/SampleScene.unity with Types
+Done importing asset: 'Assets/Scenes/SampleScene.unity' (target hash: 'b517fcc99d8dc9eb1e450816c518b977') in 0.084026 seconds
+  Import took 0.085395 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scripts/playerController.cs
+  artifactKey: Guid(bca7865971407c54291dedc09376800a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/playerController.cs using Guid(bca7865971407c54291dedc09376800a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/042e54b12ee21a04d874f51481787698.asset.1.index for Assets/Scripts/playerController.cs with Types
+Done importing asset: 'Assets/Scripts/playerController.cs' (target hash: 'e1824e90b38b7bffbca66efec2b5f187') in 0.143438 seconds
+  Import took 0.144956 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Sprites/Tiles.png
+  artifactKey: Guid(b905fbc98152dd741a8defe4036290ef) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Sprites/Tiles.png using Guid(b905fbc98152dd741a8defe4036290ef) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/efd58ecfd77517143806e0f82ffd6c43.asset.1.index for Assets/Sprites/Tiles.png with Types
+Done importing asset: 'Assets/Sprites/Tiles.png' (target hash: '931e875f8fee6ded737d994c35f948b1') in 0.075478 seconds
+  Import took 0.076844 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Prefabs/groundCollide.prefab
+  artifactKey: Guid(a7aba071d77485942952532663ead4ff) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/groundCollide.prefab using Guid(a7aba071d77485942952532663ead4ff) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a7425b5cb1581ba479ce8a71619ddd8e.asset.1.index for Assets/Prefabs/groundCollide.prefab with Types
+Done importing asset: 'Assets/Prefabs/groundCollide.prefab' (target hash: '91684d96503fcc07753856c62c80f0d6') in 0.098987 seconds
+  Import took 0.100730 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Animations/playerAnimationAttack4.anim
+  artifactKey: Guid(bc16c32854beeb84bb27f9e00f59a4da) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Animations/playerAnimationAttack4.anim using Guid(bc16c32854beeb84bb27f9e00f59a4da) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2f2d7d238acef414588e9a5072a11ac3.asset.1.index for Assets/Animations/playerAnimationAttack4.anim with Types
+Done importing asset: 'Assets/Animations/playerAnimationAttack4.anim' (target hash: '698c542419dd5896871e24861aac4306') in 0.078388 seconds
+  Import took 0.079705 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.010547 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.111 seconds
+Registering precompiled user dll's ...
+Registered in 0.222882 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.173 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.6 MB.
+System memory in use after: 34.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1555.
+Total: 3.305600 ms (FindLiveObjects: 0.811200 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.324000 ms  DeleteObjects: 0.082300 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.045070 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.670 seconds
+Registering precompiled user dll's ...
+Registered in 0.115450 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.616 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.6 MB.
+System memory in use after: 34.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 3.673300 ms (FindLiveObjects: 0.877800 ms CreateObjectMapping: 0.099500 ms MarkObjects: 2.581300 ms  DeleteObjects: 0.113200 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016003 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.330 seconds
+Registering precompiled user dll's ...
+Registered in 0.499016 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 11.440 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.6 MB.
+System memory in use after: 34.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1567.
+Total: 4.241200 ms (FindLiveObjects: 1.008600 ms CreateObjectMapping: 0.122100 ms MarkObjects: 3.019300 ms  DeleteObjects: 0.088700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.3.2f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.021119 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.860 seconds
+Registering precompiled user dll's ...
+Registered in 0.114124 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Media\UnityProjects\Platform\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for Android target not found
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 34.6 MB.
+System memory in use after: 34.7 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1573.
+Total: 3.599900 ms (FindLiveObjects: 0.836500 ms CreateObjectMapping: 0.232000 ms MarkObjects: 2.447900 ms  DeleteObjects: 0.081900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
